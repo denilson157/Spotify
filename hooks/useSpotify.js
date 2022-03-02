@@ -4,7 +4,7 @@ import {useEffect} from 'react'
 
 const useSpotify = () => {
 
-    const { data: session, status } = useSession();
+    const { data: session,  status } = useSession();
 
     useEffect(() => {
         if (session) {
